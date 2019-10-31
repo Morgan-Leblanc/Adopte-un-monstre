@@ -55,7 +55,14 @@ class Elevator extends React.Component{
                 <div className="elm sliding-door right "></div>
                 <img className="monsters_left" src={this.state.monster.picture} ></img> 
                 </div>
-                <div className="description_left"> </div>
+                <div className="description_left">
+                <h1>The name of this potential soulmate :</h1>
+                    <br/><p>{this.state.monster.name}</p>
+                    <h1>His level of sex appeal :</h1> 
+                    <br/><p>{this.state.monster.level}</p>
+                    <h1>Here, you will understand why he's the one for you :</h1>
+                    <br/><p>{this.state.monster.description}</p>
+                </div>
                 </>
                     :
                 <>
@@ -64,9 +71,16 @@ class Elevator extends React.Component{
                 <div className="elm sliding-door right opened"></div>
                 <img className="monsters_right" src={this.state.monster.picture} ></img>
                 </div>
-                <div className="description_right"> </div>
+                <div className="description_right">
+                    <h1>The name of this potential soulmate :</h1>
+                    <br/><p>{this.state.monster.name}</p>
+                    <h1>His level of sex appeal :</h1> 
+                    <br/><p>{this.state.monster.level}</p>
+                    <h1>Here, you will understand why he's the one for you :</h1>
+                    <br/><p>{this.state.monster.description}</p>
+                </div>
                 </>
-                } 
+                }
                 
             </>     
             

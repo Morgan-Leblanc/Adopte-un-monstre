@@ -119,8 +119,34 @@
 /* -------- Description slides -------- */
 
 .description_left {
-    width : 40%;
-    background-color: rgb(255, 0, 0);
-    height : 50vh;
-    z-index : 100;
+    background-color: rgba(255, 0, 0, 0.438);
+    width : 35%;
+    height : 60vh;
+    z-index: 150;
+    position : absolute;
+    right : 27vh;
+    top : 17vh;
+    border-radius : 5px;
+    padding : 2%;
+}
+
+.description_right {
+    background-color: rgba(255, 0, 0, 0.438);
+    width : 35%;
+    height : 60vh;
+    z-index : 150;
+    position : absolute;
+    left : 27vh;
+    top : 17vh;
+    border-radius : 5px;
+    padding : 2%;
+}
+
+.description_left h1 {
+    font-size : 30px;
+    margin : 20px 0;
+}
+
+.description_right h1 {
+    font-size : 30px;
 }

@@ -6,14 +6,14 @@ class ScreenNo extends React.Component{
     render(){
         return(
             <div>
-                <video autoPlay loop muted >
+                <video className='ifNoScreen-video' autoPlay loop muted >
                     <source src={video} type="video/mp4"></source>
                 </video>
-                <div className="welcome">
+                <div className="ifNoScreen-welcome">
                     <h1>What a pity !</h1>
-                    <p>We had a great monster to introduce you !</p>
+                    <p className='ifNoScreen-p'>We had a great monster to introduce you !</p>
                     <input 
-                        className="button"
+                        className="ifNoScreen-button"
                         type='button'
                         value='You changed your mind ?'
                     />

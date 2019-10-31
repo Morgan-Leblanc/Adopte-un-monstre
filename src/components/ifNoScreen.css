@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-video {
+.ifNoScreen-video {
     background-size: cover;
     bottom: 0;
     height: auto;
@@ -16,11 +16,9 @@ video {
     z-index: -100;
   }
 
-.mainContainer {
-    height: 100vh;
-}
 
-.welcome {
+
+.ifNoScreen-welcome {
     background-color: rgba(0, 0, 0, 0.85);
     width: 60%;
     height: 60vh;
@@ -32,11 +30,11 @@ video {
     font-size: 3em;
 }
 
-p{
+.ifNoScreen-p{
     margin-top: 2.5vw;
 }
 
-input{
+.ifNoScreen-button{
     width: 20vw;
     height: 3em;
     margin-right: 1em;
@@ -47,7 +45,7 @@ input{
     border: none;
 }
 
-input:hover{
+.ifNoScreen-button:hover{
     background-color: black;
     color: rgb(146, 10, 10);
 }
